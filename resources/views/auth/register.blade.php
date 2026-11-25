@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VaxTrack - Create Account</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <div class="split-container">
@@ -119,6 +119,5 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('js/password-visibility.js') }}"></script>
 </body>
 </html>

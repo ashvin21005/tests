@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VaxTrack - Change Password</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <main class="form-panel">
@@ -35,6 +35,5 @@
             <form method="POST" action="{{ route('logout') }}" class="password-logout">@csrf<button type="submit">Sign out</button></form>
         </section>
     </main>
-    <script src="{{ asset('js/password-visibility.js') }}"></script>
 </body>
 </html>

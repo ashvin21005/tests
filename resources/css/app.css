@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import './dashboard.css';
+@import './patients.css';
+@import './operations.css';
+@import './vt-ui.css';
 
 /* Design tokens */
 * {

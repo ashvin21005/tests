@@ -58,4 +58,3 @@
         </fieldset>
     </template>
 </section>
-<script src="{{ asset('js/historical-immunizations.js') }}" defer></script>

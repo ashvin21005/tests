@@ -12,8 +12,7 @@
             document.documentElement.setAttribute('data-theme', theme);
         })();
     </script>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/vt-ui.css') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <div class="split-container vt-login">
@@ -133,6 +132,5 @@
             window.lucide?.createIcons();
         });
     </script>
-    <script src="{{ asset('js/password-visibility.js') }}"></script>
 </body>
 </html>
